@@ -1,0 +1,117 @@
+.linkedin-auth-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: #2977c9;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+}
+
+.auth-link-container {
+  display: flex;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.auth-link-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.sharing-options {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.share-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.share-btn.email {
+  background-color: #2977c9;
+  color: white;
+}
+
+.share-btn.copy {
+  background-color: #f3f6f8;
+  color: #666;
+}
+
+.client-instructions {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #f3f6f8;
+  border-radius: 4px;
+}
+
+.client-instructions h4 {
+  margin: 0 0 12px 0;
+  color: #333;
+}
+
+.client-instructions ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.client-instructions li {
+  margin: 8px 0;
+  color: #444;
+}
+
+.note {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  color: #856404;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  margin-top: 0px; /* Remove top margin since navbar is hidden on dashboard */
+}
+
+.dashboard-main {
+  display: flex;
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 12px;
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.15);
+  overflow: hidden;
+  border: 1px solid rgba(102, 126, 234, 0.1);
+}
+
+/* Modern Purple Gradient Theme Colors */
+:root {
+  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  --primary-color: #667eea;
+  --secondary-color: #764ba2;
+  --accent-color: #f093fb;
+  --light-purple: #f8f9ff;
+  --lighter-purple: #f0f2ff;
+  --white: #ffffff;
+  --dark-text: #1f2937;
+  --medium-text: #6b7280;
+  --light-text: #9ca3af;
+  --border-color: rgba(102, 126, 234, 0.1);
+  --shadow-color: rgba(102, 126, 234, 0.15);
+  --hover-shadow: rgba(102, 126, 234, 0.25);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+  
+  .dashboard-main {
+    margin: 8px;
+    border-radius: 12px;
+  }
+} 
